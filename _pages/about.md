@@ -24,4 +24,4 @@ My lab will use primarily bioinformatics approaches to explore the evolutionary 
 
 We will be exploring strain variation across reference genomes and in natural communities. For the latter, we will be working with collaborators to better understand the factors driving strain variation across ocean and lake water samples, as well as honey bee gut microbiome samples.
 
-Last, we will develop bioinformatic tools to better identify putatively adaptive accessory genes, and to aid microbial ecology analyses more generally.
+Last, we will develop bioinformatic tools to better identify putatively adaptive accessory genes, and to aid microbial ecology analyses more generally. We will especially focus on tools that incorporate genomes (both high-quality reference and metagenome-assembled genomes) in metagenomics analyses.
