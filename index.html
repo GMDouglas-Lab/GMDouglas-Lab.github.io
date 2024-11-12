@@ -45,7 +45,7 @@
             color: #2d3748;
             margin: 2rem 0 1rem;
             font-size: 1.8rem;
-            text-align: justify;
+            text-align: center;
         }
 
         p {
@@ -85,6 +85,8 @@
         .italics {
             font-style: italic;
             color: #666;  /* Slightly muted color for the notice */
+            font-size: 1rem;
+            text-align: left;
         }
 
         .campus-image {
@@ -121,6 +123,13 @@
         .pi-info {
             flex-grow: 1;  /* Takes up remaining space */
             text-align: left;
+        }
+
+        .pi-info-text-centered {
+            flex-grow: 0;  /* Don't grow */
+            margin-right: 0;  /* Remove right margin */
+            padding-right: 0;  /* Remove right padding */
+            text-align: center;
         }
 
         @media (max-width: 768px) {
@@ -162,14 +171,11 @@
         <p>We will also be working with collaborators to better understand the factors driving strain variation across a range of environmental samples (including ocean and lake water samples, as well as honey bee gut microbiome samples).</p>
 
         <p>Last, we will develop bioinformatic tools to better identify putatively adaptive accessory genes, and to aid microbial ecology analyses more generally. We will especially focus on developing approaches that incorporate genomes (both high-quality reference and metagenome-assembled genomes) in metagenomics analyses.</p>
-
-        <div class="section">
-            <h2>Contact</h2>
-            <p>For inquiries about the lab, collaborations, or opportunities, please reach out at:</p>
-            <img src="assets/images/gmail_screenshot.jpg" alt="Contact Email" class="email-img">
-        </div>
         
         <div class="section">
+            <p style="text-align: center; margin-bottom: -1rem">Please feel free to contact me at:</p>
+            <img src="assets/images/gmail_screenshot.jpg" alt="Contact Email" class="email-img">
+            
             <p class="italics">This site is under construction. For information on my background and publication history please see my <a href="http://www.gavindouglas.ca">personal website</a>.</p>
         </div>
         
