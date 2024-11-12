@@ -102,6 +102,25 @@
             color: #666;
             margin-bottom: 2rem;
          }
+         .pi-container {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .headshot {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            flex-shrink: 0;  /* Prevents image from shrinking */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .pi-info {
+            flex-grow: 1;  /* Takes up remaining space */
+        }
 
         @media (max-width: 768px) {
             .container {
@@ -128,7 +147,12 @@
         <img src="assets/images/campus_and_map.jpg" alt="UNB Campus and Fredericton Map" class="campus-image">
         <p class="image-caption">Left: UNB, Fredericton campus across the Saint John river (copyright UNB). Right: Location of Fredericton (copyright Encyclopedia Britannica).</p>
        
-        <p><strong>Principal Investigator</strong>: Gavin M. Douglas (<a href="http://www.gavindouglas.ca">link to personal website</a>).</p>
+        <div class="pi-container">
+            <img src="assets/images/24.03.20_Gavin_headshot.jpg" alt="Gavin Douglas" class="headshot">
+            <div class="pi-info">
+                <p><strong>Principal Investigator</strong>: Gavin M. Douglas (<a href="http://www.gavindouglas.ca">link to personal website</a>).</p>
+            </div>
+        </div>
 
         <p>I am seeking students (at any level) and postdocs interested in joining my new group in the Biology Department (UNB, Fredericton campus). The earliest start date is September, 2025.</p>
 
