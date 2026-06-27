@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const header = document.createElement('div');
     header.innerHTML = `
-        <h2 style="color: #d22b43;">The Douglas Lab at UNB</h1>
+        <h2 style="color: #d22b43;">The Douglas Lab at the University of New Brunswick</h1>
     `;
     header.appendChild(nav);
 
