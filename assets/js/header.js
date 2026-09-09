@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const pages = [
         { href: 'index.html', label: 'About' },
-        { href: 'people.html', label: 'Lab members' },
-        { href: 'publications.html', label: 'Publications' },
+        { href: 'people.html', label: 'People' },
+        { href: 'publications.html', label: 'Papers' },
         { href: 'open-science.html', label: 'Open science' },
         { href: 'contact.html', label: 'Contact' },
 
